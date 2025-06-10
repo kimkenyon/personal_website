@@ -1,17 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href='https://fonts.googleapis.com/css?family=Maven Pro' rel='stylesheet'>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Kelly Kenyon</title>
+	<title>Kelly's Cafe Menu</title>
+	<style>
+		body{
+			background-color: #970000;
+    		font-family: 'Maven Pro';font-size: 18px;
+		}
+		#tips{
+			text-align: center;
+			color: white;
+		}
+
+		#menu{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		@media only screen and (max-width: 600px) {
+		  #menu {width: 90%;}
+		}
+
+		@media only screen and (min-width: 600px) {
+		  #menu {width: 550px;}
+		}
+
+		@media only screen and (min-width: 768px) {
+		  #menu {width: 650px;}
+		}
+	</style>
 </head>
 <body>
-	<h1>TESTING GITHUB PAGES AND DOMAIN STUFF</h1>
-	<p>If anyone is reading this:</p>
-	<ol>
-		<li>Why?</li>
-		<li>Who are you?</li>
-	</ol>
-	<p>This is the initial index (home page) push so I can test out the link and domain name altering.</p>
+	<img src="img/kellys_cafe_menu_june_14_2025.png" id="menu">
+	<p id="tips">Venmo Tips @IkeaMeatball (but only if you feel like it!)</p>
 </body>
 </html>
